@@ -16,23 +16,23 @@ const Landing = () => {
                         <h1
                             data-aos="fade-right"
                             data-aos-delay="400"
-                            data-aos-duration="700"
+                            data-aos-duration="900"
                             class="text-5xl font-bold">
                             Professional Cleaning Service
                         </h1>
                         <p
                             data-aos="fade-right"
-                            data-aos-duration="700"
+                            data-aos-duration="1100"
                             data-aos-delay="600"
                             class="py-6 max-w-xl">
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
-                        <button 
-                        data-aos="zoom-in"
-                        data-aos-delay="1100"
-                        class="btn btn-primary">
+                        <button
+                            data-aos="zoom-in"
+                            data-aos-delay="1300"
+                            class="btn btn-primary">
                             Get Started
-                            </button>
+                        </button>
                     </div>
                     <div className="h-[60vh] hidden md:block lg:block shrink-0">
                         <img src="https://github.com/mir-hussain/clean-co-live/blob/main/src/assets/image/bucketgirl.png?raw=true" class="h-full" alt="" />
@@ -45,54 +45,55 @@ const Landing = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <input
                         type="text"
-                        placeholder="Type here"
+                        placeholder="Your Name"
+                        class="input input-bordered w-full"
+                    />
+
+                    <input
+                        type="number"
+                        placeholder="Phone Number"
                         class="input input-bordered w-full"
                     />
 
                     <input
                         type="text"
-                        placeholder="Type here"
+                        placeholder="Type of service"
                         class="input input-bordered w-full"
                     />
 
                     <input
                         type="text"
-                        placeholder="Type here"
+                        placeholder="Type of cleaning"
                         class="input input-bordered w-full"
                     />
 
                     <input
-                        type="text"
-                        placeholder="Type here"
+                        type="number"
+                        placeholder="Total square feet"
                         class="input input-bordered w-full"
                     />
 
                     <input
-                        type="text"
-                        placeholder="Type here"
+                        type="number"
+                        placeholder="Number of bedrooms"
                         class="input input-bordered w-full"
                     />
 
                     <input
-                        type="text"
-                        placeholder="Type here"
+                        type="number"
+                        placeholder="Number of bathrooms"
                         class="input input-bordered w-full"
                     />
 
-                    <input
-                        type="text"
-                        placeholder="Type here"
-                        class="input input-bordered w-full"
-                    />
 
                     <input
                         type="text"
-                        placeholder="Type here"
+                        placeholder="Frequency of cleaning"
                         class="input input-bordered w-full"
                     />
                 </div>
 
-                <button className="btn btn-primary mt-4">Get a Quote</button>
+                <button className="btn btn-primary mt-4">Request a Quote</button>
 
             </div>
         </div>
