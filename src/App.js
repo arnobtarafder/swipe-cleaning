@@ -1,11 +1,20 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Services from './Pages/Services';
-// import Login from './Pages/Login';
+import Login from './Pages/Login';
+
+
+const publicRoute = [
+  { path: "/", name: "Home", Component: Home },
+  { path: "/about", name: "About", Component: About },
+  { path: "/contact", name: "Contact", Component: Contact },
+  { path: "/services", name: "Services", Component: Services },
+  { path: "/login", name: "Login", Component: Login },
+]
+
 
 function App() {
   return (
@@ -13,12 +22,12 @@ function App() {
 
       <Navbar>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/contact' element={<Contact />} />
-          {/* <Route path='/login' element={<Login />} /> */}
+          {
+            publicRoute.map(route => <Route
+              path={route.path}
+              element={<route.Component />}
+            />)
+          }
         </Routes>
       </Navbar>
 
