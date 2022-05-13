@@ -1,15 +1,21 @@
+import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './Components/Navbar/Navbar';
 import {publicRoute} from "./Routes/publicRoutes"
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import Navbar from './Components/Navbar/Navbar';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+
   return (
     <div>
-
       <Navbar>
         <Routes>
           {
@@ -20,8 +26,6 @@ function App() {
           }
         </Routes>
       </Navbar>
-
-
     </div>
   );
 }
