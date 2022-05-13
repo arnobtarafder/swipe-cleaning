@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import {publicRoute} from "./Routes/publicRoutes"
-
-
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 
 
