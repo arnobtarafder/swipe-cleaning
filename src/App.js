@@ -23,9 +23,9 @@ function App() {
       <Navbar>
         <Routes>
           {
-            publicRoute.map(route => <Route
-              path={route.path}
-              element={<route.Component />}
+            publicRoute.map(({path, Component}) => <Route
+              path={path}
+              element={<Component />}
             />)
           }
         </Routes>
