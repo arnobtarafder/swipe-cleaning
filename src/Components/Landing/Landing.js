@@ -17,8 +17,8 @@ const Landing = () => {
             </div>  
         </div>
 
-        <div className="relative rounded-2xl mx-auto mt-[-50px] bg-base-100 z-20 shadow-lg p-10 w-5/6">
-                <h1>Get Free Estimate</h1>
+        <div className="relative rounded-2xl mx-auto mt-[-50px] bg-base-200 shadow-lg p-10 w-5/6">
+                <h1 className="text-primary">Get Free Estimate</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                 <input 
                 type="text" 
@@ -67,8 +67,10 @@ const Landing = () => {
                 placeholder="Type here" 
                 class="input input-bordered w-full" 
                 />
-
                 </div>
+
+                <button className="btn btn-primary mt-4">Get a Quote</button>
+
             </div>
         </div>
     );
