@@ -22,15 +22,15 @@ const Landing = () => {
                         </h1>
                         <p
                             data-aos="fade-right"
-                            data-aos-duration="1100"
-                            data-aos-delay="600"
+                            data-aos-duration="1500"
+                            data-aos-delay="900"
                             className="py-6 max-w-xl">
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
                         <button
                             data-aos="zoom-in"
-                            data-aos-delay="1300"
-                            className="btn btn-primary">
+                            data-aos-delay="1900"
+                            className="btn btn-primary mb-3">
                             Get Started
                         </button>
                     </div>

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import {publicRoute} from "./Routes/publicRoutes"
+import { publicRoute } from "./Routes/publicRoutes"
 import Navbar from './Components/Navbar/Navbar';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +19,7 @@ function App() {
       <Navbar>
         <Routes>
           {
-            publicRoute.map(({path, Component}) => <Route
+            publicRoute.map(({ path, Component }) => <Route
               path={path}
               element={<Component />}
             />)
