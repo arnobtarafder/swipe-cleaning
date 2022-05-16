@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
 
-const RequireAuth = ({children}) => {
+const AdminRoute = () => {
     const location = useLocation();
     const user = false;
 
@@ -12,4 +12,4 @@ const RequireAuth = ({children}) => {
     return <Outlet />;
 };
 
-export default RequireAuth;
+export default AdminRoute;

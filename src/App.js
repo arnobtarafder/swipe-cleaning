@@ -27,6 +27,7 @@ function App() {
               element={<Component />}
             />)
           }
+          
           <Route element={<RequireAuth />}>
             {
               privateRoutes.map(({ path, Component }, index) => <Route
