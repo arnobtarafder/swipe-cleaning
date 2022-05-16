@@ -1,20 +1,11 @@
 import React from 'react';
+import DashboardSidebar from '../Components/DashboardSidebar/DashboardSidebar';
 
 const Dashboard = () => {
     return (
-            <div class="drawer drawer-mobile mt-16">
-                <input id="dashboard-drawer" type="checkbox" class="drawer-toggle" />
-                <div class="drawer-content flex flex-col items-center justify-center">
-                </div>
-                <div class="drawer-side">
-                    <label for="dashboard-drawer" class="drawer-overlay"></label>
-                    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
-                        <li><a>Sidebar Item 1</a></li>
-                        <li><a>Sidebar Item 2</a></li>
-                    </ul>
-
-                </div>
-            </div>
+          <DashboardSidebar>
+              <h1>Yoyo I am Dashboard</h1>
+          </DashboardSidebar>
     );
 };
 
