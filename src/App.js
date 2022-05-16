@@ -40,9 +40,9 @@ function App() {
             }
           </Route>
 
-          {/* <Route element={<AdminRoute />}>
+          <Route element={<AdminRoute />}>
             <Route path='/dashboard' element={<Dashboard />} />
-          </Route> */}
+          </Route>
         </Routes>
       </Navbar>
     </div>
