@@ -8,6 +8,8 @@ import { privateRoutes } from './Routes/privateRoutes';
 import RequireAuth from './Authentication/RequireAuth';
 import AdminRoute from './Authentication/AdminRoute';
 import Dashboard from './Dashboard/Dashboard';
+import AddAdmin from './Dashboard/AddAdmin';
+import AddService from './Dashboard/AddService';
 
 
 
@@ -42,6 +44,9 @@ function App() {
 
           <Route element={<AdminRoute />}>
             <Route path='/dashboard' element={<Dashboard />} />
+                <Route path='/dashboard/add-admin' element={<AddAdmin />}></Route>
+                
+                <Route path='/dashboard/add-service' element={<AddService />}></Route>
           </Route>
         </Routes>
       </Navbar>
