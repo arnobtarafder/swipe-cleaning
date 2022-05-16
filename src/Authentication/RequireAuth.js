@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 
-const PrivateRoute = ({children}) => {
+const RequireAuth = ({children}) => {
     const location = useLocation();
     const user = false;
 
@@ -16,4 +16,4 @@ const PrivateRoute = ({children}) => {
     );
 };
 
-export default PrivateRoute;
+export default RequireAuth;

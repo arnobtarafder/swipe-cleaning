@@ -1,4 +1,4 @@
-import About from "../pages/About";
+import About from "../Pages/About";
 import Services from "../Pages/Services";
 
 export const privateRoutes = [
