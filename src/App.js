@@ -43,10 +43,12 @@ function App() {
           </Route>
 
           <Route element={<AdminRoute />}>
-            <Route path='/dashboard' element={<Dashboard />} />
+
+            <Route path='/dashboard' element={<Dashboard />}>
                 <Route path='/dashboard/add-admin' element={<AddAdmin />}></Route>
-                
                 <Route path='/dashboard/add-service' element={<AddService />}></Route>
+            </Route>
+
           </Route>
         </Routes>
       </Navbar>
