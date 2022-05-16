@@ -85,22 +85,22 @@ const Navbar = ({ children }) => {
                             <NavLink to="/login" className='rounded-lg'>Login</NavLink>
                         </li>
 
-                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                        <div tabIndex="0" className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
 
-                            <input type="checkbox" class="peer" />
+                            <input type="checkbox" className="peer" />
 
-                            <div class="collapse-title text-xl font-medium">
+                            <div className="collapse-title text-xl font-medium">
                                 Book Now
                             </div>
 
                             <li>
-                                <div class="collapse-content">
+                                <div className="collapse-content">
                                     <NavLink to="/contact" className='rounded-lg'>Quick Book</NavLink>
                                 </div>
                             </li>
 
                             <li>
-                                <div class="collapse-content">
+                                <div className="collapse-content">
                                     <NavLink to="/login" className='rounded-lg'>Pre Book</NavLink>
                                 </div>
                             </li>
