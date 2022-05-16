@@ -2,7 +2,7 @@ import React from 'react';
 
 const Login = () => {
     return (
-        <div className='h-screen flex justify-center items-center bg-primary'>
+        <div className='h-screen flex justify-center items-center bg-accent'>
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div class="card-body">
                     <h1 className='text-2xl text-center'>Login</h1>
@@ -23,6 +23,13 @@ const Login = () => {
                     </div>
                     <div class="form-control mt-6">
                         <button class="btn btn-primary">Login</button>
+                    </div>
+
+                    <div className="divider">Or</div>
+
+                    
+                    <div class="form-control">
+                        <button class="btn btn-outline-primary hover:btn-accent">Continue With Google </button>
                     </div>
                 </div>
             </div>
