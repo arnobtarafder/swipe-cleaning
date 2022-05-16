@@ -85,13 +85,22 @@ const Navbar = ({ children }) => {
                             <NavLink to="/login" className='rounded-lg'>Login</NavLink>
                         </li>
 
-                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">      
-                            <div class="collapse-title text-xl font-medium peer">
-                                Focus me to see content
+                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                Book Now
                             </div>
-                            <div class="collapse-content">
-                                <p>tabindex="0" attribute is necessary to make the div focusable</p>
-                            </div>
+
+                            <li>
+                                <div class="collapse-content">
+                                    <NavLink to="/contact" className='rounded-lg'>Quick Book</NavLink>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collapse-content">
+                                    <NavLink to="/login" className='rounded-lg'>Pre Book</NavLink>
+                                </div>
+                            </li>
                         </div>
 
                     </ul>
