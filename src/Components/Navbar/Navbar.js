@@ -86,6 +86,9 @@ const Navbar = ({ children }) => {
                         </li>
 
                         <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+
+                            <input type="checkbox" class="peer" />
+
                             <div class="collapse-title text-xl font-medium">
                                 Book Now
                             </div>
