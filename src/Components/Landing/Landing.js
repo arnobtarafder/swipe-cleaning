@@ -3,8 +3,8 @@ import React from "react";
 const Landing = () => {
     return (
         <div className="relative">
-            <div class="hero h-screen lg:h-[60vh] bg-accent mt-16 lg:px-36">
-                <div class="hero-content flex-col lg:flex-row md:flex-row">
+            <div className="hero h-screen lg:h-[60vh] bg-accent mt-16 lg:px-36">
+                <div className="hero-content flex-col lg:flex-row md:flex-row">
                     <div className="">
                         <p
                             data-aos="fade-right"
@@ -17,25 +17,25 @@ const Landing = () => {
                             data-aos="fade-right"
                             data-aos-delay="400"
                             data-aos-duration="900"
-                            class="text-5xl font-bold">
+                            className="text-5xl font-bold">
                             Professional Cleaning Service
                         </h1>
                         <p
                             data-aos="fade-right"
                             data-aos-duration="1100"
                             data-aos-delay="600"
-                            class="py-6 max-w-xl">
+                            className="py-6 max-w-xl">
                             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
                         </p>
                         <button
                             data-aos="zoom-in"
                             data-aos-delay="1300"
-                            class="btn btn-primary">
+                            className="btn btn-primary">
                             Get Started
                         </button>
                     </div>
                     <div className="h-[60vh] hidden md:block lg:block shrink-0">
-                        <img src="https://github.com/mir-hussain/clean-co-live/blob/main/src/assets/image/bucketgirl.png?raw=true" class="h-full" alt="" />
+                        <img src="https://github.com/mir-hussain/clean-co-live/blob/main/src/assets/image/bucketgirl.png?raw=true" className="h-full" alt="" />
                     </div>
                 </div>
             </div>
@@ -46,50 +46,50 @@ const Landing = () => {
                     <input
                         type="text"
                         placeholder="Your Name"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
                     <input
                         type="number"
                         placeholder="Phone Number"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
                     <input
                         type="text"
                         placeholder="Type of service"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
                     <input
                         type="text"
                         placeholder="Type of cleaning"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
                     <input
                         type="number"
                         placeholder="Total square feet"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
                     <input
                         type="number"
                         placeholder="Number of bedrooms"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
                     <input
                         type="number"
                         placeholder="Number of bathrooms"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
 
 
                     <input
                         type="text"
                         placeholder="Frequency of cleaning"
-                        class="input input-bordered w-full"
+                        className="input input-bordered w-full"
                     />
                 </div>
 
