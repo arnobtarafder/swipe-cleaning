@@ -19,7 +19,8 @@ function App() {
       <Navbar>
         <Routes>
           {
-            publicRoute.map(({ path, Component }) => <Route
+            publicRoute.map(({ path, Component }, index) => <Route
+              key={index}
               path={path}
               element={<Component />}
             />)
